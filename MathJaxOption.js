@@ -66,7 +66,7 @@ MathJax.Hub.Config({
             laplacian:  ['{\\nabla^2}'],
 
             /* operators */
-            sin:        ['{\\sin\\left( #1 \\right)}', 2, ""],
+/*            sin:        ['{\\sin^ #2 \\left( #1 \\right)}', 2, ""],*/
             cos:        ['{\\cos\\left( #1 \\right)}', 1],
 	    }
     }
