@@ -53,7 +53,7 @@ MathJax.Hub.Config({
             vectorarrow: ['{\\boldsymbol{\\vec{ #1 }}}'],
             va:          ['{\\vec{\\boldsymbol{ #1 }}}'],
             vectorunit:  ['{\\boldsymbol{\\hat{ #1 }}}'],
-            vu:          ['{\\boldsymbol{\\hat{ #1 }}}'],
+            vu:          ['{\\hat{\\boldsymbol{ #1 }}}'],
 	    }
     }
 });
