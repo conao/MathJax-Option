@@ -35,6 +35,7 @@ MathJax.Hub.Config({
             absolutevalue: ['{\\left\\vert #1 \\right\\vert}', 1],
             abs:           ['{\\left\\vert #1 \\right\\vert}', 1],
             norm:          ['{\\left\\Vert #1 \\right\\Vert}', 1],
+            eval:          ['{\\right. #1 \\left\\vert}', 1],
 	    }
     }
 });
