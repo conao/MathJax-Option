@@ -26,7 +26,7 @@ MathJax.Hub.Config({
 
             /* automatic bracing */
             quantity: ['{\\left\\{ #1 \\right\\}', 1],
-            qty:      ["{\\left\\{ #1 \\right\\}", 1],
+            qty:      ["{\\left\\{ #1 \\right\\}", 1]
 	    }
     }
 });
