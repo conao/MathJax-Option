@@ -67,7 +67,7 @@ MathJax.Hub.Config({
 
             /* operators */
 /*            sin:        ['{\\sin^ #2 \\left( #1 \\right)}', 2, ""],*/
-            cos:        ['{\\mathrm{cos}^{#2} \\left( #1 \\right)}', 2, ""],
+            cos:        ['{\\mathrm{cos}^{#1} \\left( #2 \\right)}', 2, ""],
 	    }
     }
 });
