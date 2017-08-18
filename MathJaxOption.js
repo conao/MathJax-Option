@@ -26,7 +26,11 @@ MathJax.Hub.Config({
 
             /* automatic bracing */
             /*quantity: ['{\\left\\{ #1 \\right\\}', 1],*/
-            qty:      ["{\\left\\{ #1 \\right\\}}", 1]
+            qty:      ["{\\left\\( #1 \\right\\)}", 1],
+            pqty:     ["{\\left\\( #1 \\right\\)}", 1],
+            bqty:     ["{\\left\\[ #1 \\right\\]}", 1],
+            vqty:     ["{\\left\\| #1 \\right\\|}", 1],
+            Bqty:     ["{\\left\\{ #1 \\right\\}}", 1],
 	    }
     }
 });
