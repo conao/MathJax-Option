@@ -35,6 +35,7 @@ MathJax.Hub.Config({
             absolutevalue: ['{\\left\\vert #1 \\right\\vert}', 1],
             abs:           ['{\\left\\vert #1 \\right\\vert}', 1],
             norm:          ['{\\left\\Vert #1 \\right\\Vert}', 1],
+            evaleted:      ['{\\left. #1 \\vphantom{\\frac{a}{a}} \\right\\vert}', 1],
             eval:          ['{\\left. #1 \\vphantom{\\frac{a}{a}} \\right\\vert}', 1],
 
             order: ['{\\mathcal{O}\\left( #1 \\right)}', 1],
@@ -45,6 +46,14 @@ MathJax.Hub.Config({
             acomm:          ['{\\left\\{ #1 , #2 \\right\\}}', 2],
             poissonbracket: ['{\\left\\{ #1 , #2 \\right\\}}', 2],
             pb:             ['{\\left\\{ #1 , #2 \\right\\}}', 2],
+
+            /* vector notation */
+            vectorbold:  ['{\\boldsymbol{ #1 }'],
+            vb:          ['{\\boldsymbol{ #1 }'],
+            vectorarrow: ['{\\boldsymbol{\\vec{ #1 }}}'],
+            va:          ['{\\boldsymbol{\\vec{ #1 }}}'],
+            vectorunit:  ['{\\boldsymbol{\\hat{ #1 }}}'],
+            vu:          ['{\\boldsymbol{\\hat{ #1 }}}'],
 	    }
     }
 });
