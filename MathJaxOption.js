@@ -1,6 +1,9 @@
 MathJax.Ajax.config.path["Extra"] = "http://conao3.com/mathjax/extensions/legacy";
 
 MathJax.Hub.Config({
+    "HTML-CSS":{
+	scale:120
+    }
     TeX:{
 	extensions: ["[Extra]/physics/physics.js"],
 	Macros: {
