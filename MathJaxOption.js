@@ -39,8 +39,12 @@ MathJax.Hub.Config({
 
             order: ['{\\mathcal{O}\\left( #1 \\right)}', 1],
 
-            commutator: ['{\\left[ #1 , #2 \\right]}', 2],
-            comm:       ['{\\left[ #1 , #2 \\right]}', 2],
+            commutator:     ['{\\left[ #1 , #2 \\right]}', 2],
+            comm:           ['{\\left[ #1 , #2 \\right]}', 2],
+            anticommutator: ['{\\left\\{ #1 , #2 \\right\\}}', 2],
+            acomm:          ['{\\left\\{ #1 , #2 \\right\\}}', 2],
+            poissonbracket: ['{\\left\\{ #1 , #2 \\right\\}}', 2],
+            pb:             ['{\\left\\{ #1 , #2 \\right\\}}', 2],
 	    }
     }
 });
