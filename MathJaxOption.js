@@ -12,8 +12,12 @@ MathJax.Hub.Config({
     TeX:{
 	extensions: ["[Extra]/physics/unpacked/physics.js"],
 	Macros: {
+	    N: '{\\mathbb N}',
+	    Z: '{\\mathbb Z}',
+	    Q: '{\\mathbb Q}',
+	    R: '{\\mathbb R}',
 	    C: '{\\mathbb C}',
-	    R: '{\\mathbb R}'
+	    rot: '\nabla\times'
 	}
     }
 });
