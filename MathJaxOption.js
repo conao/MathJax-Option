@@ -66,8 +66,48 @@ MathJax.Hub.Config({
             laplacian:  ['{\\nabla^2}'],
 
             /* operators */
-            sin:        ['{\\mathrm{sin }^{#1} \\left( #2 \\right)}', 2, ""],
-            cos:        ['{\\mathrm{cos }^{#1} \\left( #2 \\right)}', 2, ""],
-	    }
+            sin:    ['{\\mathrm{sin}^{#1}     \\left( /!#2 \\right)}', 2, ""],
+            cos:    ['{\\mathrm{cos}^{#1}     \\left( /!#2 \\right)}', 2, ""],
+            tan:    ['{\\mathrm{tan}^{#1}     \\left( /!#2 \\right)}', 2, ""],
+            csc:    ['{\\mathrm{csc}^{#1}     \\left( /!#2 \\right)}', 2, ""],
+            sec:    ['{\\mathrm{sec}^{#1}     \\left( /!#2 \\right)}', 2, ""],
+            cot:    ['{\\mathrm{cot}^{#1}     \\left( /!#2 \\right)}', 2, ""],
+
+            arcsin: ['{\\mathrm{arcsin}^{#1}  \\left( #2 \\right)}', 2, ""],
+            arccos: ['{\\mathrm{arccos}^{#1}  \\left( #2 \\right)}', 2, ""],
+            arctan: ['{\\mathrm{arctan}^{#1}  \\left( #2 \\right)}', 2, ""],
+            arccsc: ['{\\mathrm{arccsc}^{#1}  \\left( #2 \\right)}', 2, ""],
+            arcsec: ['{\\mathrm{arcsec}^{#1}  \\left( #2 \\right)}', 2, ""],
+            arccot: ['{\\mathrm{arccot}^{#1}  \\left( #2 \\right)}', 2, ""],
+
+	        asin:   ['{\\mathrm{arcsin}^{#1}  \\left( #2 \\right)}', 2, ""],
+            acos:   ['{\\mathrm{arccos}^{#1}  \\left( #2 \\right)}', 2, ""],
+            atan:   ['{\\mathrm{arctan}^{#1}  \\left( #2 \\right)}', 2, ""],
+            acsc:   ['{\\mathrm{arccsc}^{#1}  \\left( #2 \\right)}', 2, ""],
+            asec:   ['{\\mathrm{arcsec}^{#1}  \\left( #2 \\right)}', 2, ""],
+            acot:   ['{\\mathrm{arccot}^{#1}  \\left( #2 \\right)}', 2, ""],            
+
+            /* hyparbolic */                 
+            sinh    ['{\\mathrm{sinh}^{#1}    \\left( #2 \\right)}', 2, ""],
+            cosh    ['{\\mathrm{cosh}^{#1}    \\left( #2 \\right)}', 2, ""],
+            tanh    ['{\\mathrm{tanh}^{#1}    \\left( #2 \\right)}', 2, ""],
+            csch    ['{\\mathrm{csch}^{#1}    \\left( #2 \\right)}', 2, ""],
+            sech    ['{\\mathrm{sech}^{#1}    \\left( #2 \\right)}', 2, ""],
+            coth    ['{\\mathrm{coth}^{#1}    \\left( #2 \\right)}', 2, ""],
+
+            arcsinh ['{\\mathrm{arcsinh}^{#1} \\left( #2 \\right)}', 2, ""],
+            arccosh ['{\\mathrm{arccosh}^{#1} \\left( #2 \\right)}', 2, ""],
+            arctanh ['{\\mathrm{arctanh}^{#1} \\left( #2 \\right)}', 2, ""],
+            arccsch ['{\\mathrm{arccsch}^{#1} \\left( #2 \\right)}', 2, ""],
+            arcsech ['{\\mathrm{arcsech}^{#1} \\left( #2 \\right)}', 2, ""],
+            arccoth ['{\\mathrm{arccoth}^{#1} \\left( #2 \\right)}', 2, ""],
+
+            asinh   ['{\\mathrm{arcsinh}^{#1} \\left( #2 \\right)}', 2, ""],
+            acosh   ['{\\mathrm{arccosh}^{#1} \\left( #2 \\right)}', 2, ""],
+            atanh   ['{\\mathrm{arctanh}^{#1} \\left( #2 \\right)}', 2, ""],
+            acsch   ['{\\mathrm{arccsch}^{#1} \\left( #2 \\right)}', 2, ""],
+            asech   ['{\\mathrm{arcsech}^{#1} \\left( #2 \\right)}', 2, ""],
+            acoth   ['{\\mathrm{arccoth}^{#1} \\left( #2 \\right)}', 2, ""],
+        }
     }
 });
