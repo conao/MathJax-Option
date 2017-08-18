@@ -50,18 +50,18 @@ MathJax.Hub.Config({
             vectorunit:  ['{\\boldsymbol{\\hat{ #1 }}}', 1],
             vu:          ['{\\boldsymbol{\\hat{ #1 }}}', 1],
 
-            dotproduct:   ['{\\cdot}'],
-            vdot:         ['{\\cdot}'],
-            crossproduct: ['{\\times}'],
+            dotproduct:   ['{\\boldsymbol{\\cdot}}'],
+            vdot:         ['{\\boldsymbol{\\cdot}}'],
+            crossproduct: ['{\\boldsymbol{\\times}}'],
             cross:        ['{\\boldsymbol{\\times}}'],
-            cp:           ['{\\times}'],
+            cp:           ['{\\boldsymbol{\\times}}'],
             
             gradient:   ['{\\nabla\\,}'],
 	        grad:       ['{\\nabla\\,}'],
-            divergence: ['{\\nabla\\cdot\\,}'],
-	        div:        ['{\\nabla\\cdot\\,}'],
-            curl:       ['{\\nabla\\times\\,}'],
-            rotation:   ['{\\nabla\\times\\,}'],
+            divergence: ['{\\nabla\\vdot\\,}'],
+	        div:        ['{\\nabla\\vdot\\,}'],
+            curl:       ['{\\nabla\\cross\\,}'],
+            rotation:   ['{\\nabla\\cross\\,}'],
 	        rot:        ['{\\nabla\\cross\\,}'],
 	    }
     }
