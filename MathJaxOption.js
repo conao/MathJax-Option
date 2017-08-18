@@ -17,7 +17,9 @@ MathJax.Hub.Config({
 	    Q: '{\\mathbb Q}',
 	    R: '{\\mathbb R}',
 	    C: '{\\mathbb C}',
-	    rot: '\nabla\times'
+	    grad: '{\\nabla\\,}',
+	    div:  '{\\nabla\\cdot\\,}',
+	    rot:  '{\\nabla\\times\\,}'
 	}
     }
 });
