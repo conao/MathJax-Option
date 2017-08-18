@@ -49,11 +49,11 @@ MathJax.Hub.Config({
 
             /* vector notation */
             vectorbold:  ['{\\boldsymbol{ #1 }}'],
-            vb:          ['{\\boldsymbol{ #1 }}'],/*
+            vb:          ['{\\boldsymbol{ #1 }}'],
             vectorarrow: ['{\\boldsymbol{\\vec{ #1 }}}'],
-            va:          ['{\\boldsymbol{\\vec{ #1 }}}'],
+            va:          ['{\\vec{\\boldsymbol{ #1 }}}'],
             vectorunit:  ['{\\boldsymbol{\\hat{ #1 }}}'],
-            vu:          ['{\\boldsymbol{\\hat{ #1 }}}'],*/
+            vu:          ['{\\boldsymbol{\\hat{ #1 }}}'],
 	    }
     }
 });
