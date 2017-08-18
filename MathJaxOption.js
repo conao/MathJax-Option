@@ -19,11 +19,6 @@ MathJax.Hub.Config({
 	        R: ['{\\mathbb R}'],
 	        C: ['{\\mathbb C}'],
 
-            /* vector */
-	        grad: ['{\\nabla\\,}'],
-	        div:  ['{\\nabla\\cdot\\,}'],
-	        rot:  ['{\\nabla\\times\\,}'],
-
             /* automatic bracing */
             quantity: ['{\\left\\{ #1 \\right\\}', 1],
             qty:      ['{\\left( #1 \\right)}', 1],
@@ -54,6 +49,19 @@ MathJax.Hub.Config({
             va:          ['{\\boldsymbol{\\vec{ #1 }}}', 1],
             vectorunit:  ['{\\boldsymbol{\\hat{ #1 }}}', 1],
             vu:          ['{\\boldsymbol{\\hat{ #1 }}}', 1],
+
+            \dotproduct: ['{\\cdot}'],
+            \vdot:       ['{\\cdot}'],
+            \crossproduct:['{\\times}'],
+            \cp:         ['{\\times}'],
+            
+            gradient:   ['{\\nabla\\,}'],
+	        grad:       ['{\\nabla\\,}'],
+            divergence: ['{\\nabla\\cdot\\,}'],
+	        div:        ['{\\nabla\\cdot\\,}'],
+            curl:       ['{\\nabla\\times\\,}'],
+            rotation:   ['{\\nabla\\times\\,}'],
+	        rot:        ['{\\nabla\\times\\,}'],
 	    }
     }
 });
