@@ -62,7 +62,7 @@ MathJax.Hub.Config({
 	        div:        ['{\\nabla\\cdot\\,}'],
             curl:       ['{\\nabla\\times\\,}'],
             rotation:   ['{\\nabla\\times\\,}'],
-	        rot:        ['{\\nabla\\times\\,}'],
+	        rot:        ['{\\nabla\\cross\\,}'],
 	    }
     }
 });
