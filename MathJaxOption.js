@@ -37,7 +37,7 @@ MathJax.Hub.Config({
             norm:          ['{\\left\\Vert #1 \\right\\Vert}', 1],
             eval:          ['{\\left. #1 \\vphantom{\\frac{a}{a}} \\right\\vert}', 1],
 
-            order: ['{\\mathcal{O}\\left( #1 \\right)', 1],
+            order: ['{\\mathcal{O}\\left( #1 \\right)}', 1],
 
             commutator: ['{\\left[ #1 , #2 \\right]}', 2],
             comm:       ['{\\left[ #1 , #2 \\right]}', 2],
