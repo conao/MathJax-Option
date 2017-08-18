@@ -30,7 +30,7 @@ MathJax.Hub.Config({
             pqty:     ["{\\left( #1 \\right)}", 1],
             bqty:     ["{\\left[ #1 \\right]}", 1],
             vqty:     ["{\\left\\vert #1 \\right\\vert}", 1],
-            Bqty:     ["{\\left{ #1 \\right}}", 1],
+            Bqty:     ["{\\left\\{ #1 \\right\\}}", 1],
 	    }
     }
 });
