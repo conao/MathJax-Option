@@ -48,12 +48,12 @@ MathJax.Hub.Config({
             pb:             ['{\\left\\{ #1 , #2 \\right\\}}', 2],
 
             /* vector notation */
-            vectorbold:  ['{\\boldsymbol{ #1 }}'],
-            vb:          ['{\\boldsymbol{ #1 }}'],
-            vectorarrow: ['{\\boldsymbol{\\vec{ #1 }}}'],
-            va:          ['{\\vec{\\boldsymbol{ #1 }}}'],
-            vectorunit:  ['{\\boldsymbol{\\hat{ #1 }}}'],
-            vu:          ['{\\hat{\\boldsymbol{ #1 }}}'],
+            vectorbold:  ['{\\boldsymbol{ #1 }}', 1],
+            vb:          ['{\\boldsymbol{ #1 }}', 1],
+            vectorarrow: ['{\\boldsymbol{\\vec{ #1 }}}', 1],
+            va:          ['{\\vec{\\boldsymbol{ #1 }}}', 1],
+            vectorunit:  ['{\\boldsymbol{\\hat{ #1 }}}', 1],
+            vu:          ['{\\hat{\\boldsymbol{ #1 }}}', 1],
 	    }
     }
 });
