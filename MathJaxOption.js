@@ -35,7 +35,12 @@ MathJax.Hub.Config({
             absolutevalue: ['{\\left\\vert #1 \\right\\vert}', 1],
             abs:           ['{\\left\\vert #1 \\right\\vert}', 1],
             norm:          ['{\\left\\Vert #1 \\right\\Vert}', 1],
-            eval:          ['{\\left. #1 \\vphantom{\\frac{d}{d}} \\right\\vert}', 1],
+            eval:          ['{\\left. #1 \\vphantom{\\frac{a}{a}} \\right\\vert}', 1],
+
+            order: ['{\\mathcal{O}\\left( #1 \\right)', 1],
+
+            commutator: ['{\\left[ #1 , #2 \\right]}', 2],
+            comm:       ['{\\left[ #1 , #2 \\right]}', 2],
 	    }
     }
 });
