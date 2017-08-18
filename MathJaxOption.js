@@ -25,12 +25,15 @@ MathJax.Hub.Config({
 	        rot:  ['{\\nabla\\times\\,}'],
 
             /* automatic bracing */
-            /*quantity: ['{\\left\\{ #1 \\right\\}', 1],*/
-            qty:      ["{\\left( #1 \\right)}", 1],
-            pqty:     ["{\\left( #1 \\right)}", 1],
-            bqty:     ["{\\left[ #1 \\right]}", 1],
-            vqty:     ["{\\left\\vert #1 \\right\\vert}", 1],
-            Bqty:     ["{\\left\\{ #1 \\right\\}}", 1],
+            quantity: ['{\\left\\{ #1 \\right\\}', 1],
+            qty:      ['{\\left( #1 \\right)}', 1],
+            pqty:     ['{\\left( #1 \\right)}', 1],
+            bqty:     ['{\\left[ #1 \\right]}', 1],
+            vqty:     ['{\\left\\vert #1 \\right\\vert}', 1],
+            Bqty:     ['{\\left\\{ #1 \\right\\}}', 1],
+
+            absolutevalue: ['{\\vqty{ #1 }', 1],
+            abs:           ['{\\vqty{ #1 }', 1],
 	    }
     }
 });
