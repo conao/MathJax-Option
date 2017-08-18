@@ -33,7 +33,7 @@ MathJax.Hub.Config({
             Bqty:     ['{\\left\\{ #1 \\right\\}}', 1],
 
             absolutevalue: ['{\\vqty\\{ #1 \\}', 1],
-            abs:           ['{\\vqty{ #1 }', 1],
+            abs:           ['{\\vqty\\{ #1 \\}', 1],
 	    }
     }
 });
