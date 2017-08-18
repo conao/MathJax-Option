@@ -10,7 +10,7 @@ MathJax.Hub.Config({
 	    processEscapes: true
     },
     TeX:{
-	    extensions: ["[Extra]/physics/unpacked/physics.js"],
+	    /*extensions: ["[Extra]/physics/unpacked/physics.js"],*/
 	    Macros: {
             /* classies */
             N: ['{\\mathbb N}'],
