@@ -1,4 +1,4 @@
-MathJax.Ajax.config.path["Extra"] = "http://conao3.com/mathjax/extensions/legacy";
+/*MathJax.Ajax.config.path["Extra"] = "http://conao3.com/mathjax/extensions/legacy";*/
 
 MathJax.Hub.Config({
     "HTML-CSS":{
