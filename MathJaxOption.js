@@ -66,12 +66,12 @@ MathJax.Hub.Config({
             laplacian:  ['{\\nabla^2}'],
 
             /* operators */
-            sin:    ['{\\mathrm{sin}^{#1}     \\left( /!#2 \\right)}', 2, ""],
-            cos:    ['{\\mathrm{cos}^{#1}     \\left( /!#2 \\right)}', 2, ""],
-            tan:    ['{\\mathrm{tan}^{#1}     \\left( /!#2 \\right)}', 2, ""],
-            csc:    ['{\\mathrm{csc}^{#1}     \\left( /!#2 \\right)}', 2, ""],
-            sec:    ['{\\mathrm{sec}^{#1}     \\left( /!#2 \\right)}', 2, ""],
-            cot:    ['{\\mathrm{cot}^{#1}     \\left( /!#2 \\right)}', 2, ""],
+            sin:    ['{\\mathrm{sin}^{#1}     \\left( //!#2 \\right)}', 2, ""],
+            cos:    ['{\\mathrm{cos}^{#1}     \\left( //!#2 \\right)}', 2, ""],
+            tan:    ['{\\mathrm{tan}^{#1}     \\left( //!#2 \\right)}', 2, ""],
+            csc:    ['{\\mathrm{csc}^{#1}     \\left( //!#2 \\right)}', 2, ""],
+            sec:    ['{\\mathrm{sec}^{#1}     \\left( //!#2 \\right)}', 2, ""],
+            cot:    ['{\\mathrm{cot}^{#1}     \\left( //!#2 \\right)}', 2, ""],
 
             arcsin: ['{\\mathrm{arcsin}^{#1}  \\left( #2 \\right)}', 2, ""],
             arccos: ['{\\mathrm{arccos}^{#1}  \\left( #2 \\right)}', 2, ""],
