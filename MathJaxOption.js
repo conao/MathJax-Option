@@ -25,7 +25,8 @@ MathJax.Hub.Config({
 	        rot:  ['{\\nabla\\times\\,}'],
 
             /* automatic bracing */
-            quantity: ['{\\left\\{ #1 \\right\\}'],
+            quantity: ['{\\left\\{ #1 \\right\\}', 1],
+            qty:      ['{\\left\\{ #1 \\right\\}', 1],
 	    }
     }
 });
