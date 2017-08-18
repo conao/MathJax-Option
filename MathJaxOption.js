@@ -63,6 +63,11 @@ MathJax.Hub.Config({
             curl:       ['{\\nabla\\cross\\,}'],
             rotation:   ['{\\nabla\\cross\\,}'],
 	        rot:        ['{\\nabla\\cross\\,}'],
+            laplacian:  ['{\\nabla^2}'],
+
+            /* operators */
+            sin:        ['{\\sin\\left( #1 \\right)}', 2, ""],
+            cos:        ['{\\cos\\left( #1 \\right)}', 1],
 	    }
     }
 });
