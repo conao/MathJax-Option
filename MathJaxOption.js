@@ -158,8 +158,8 @@ MathJax.Hub.Config({
             qin:        ['{\\quad\\text{ in        }\\quad}'],
 
             /* derivatives */
-            diferential:['{\\mathrm{d}}'],
-            dd:         ['{\\mathrm{d}}'],
+            diferential:['{\\mathrm{d}^{ #1 }}', 1, ""],
+            dd:         ['{\\mathrm{d}^{ #1 }}', 1, ""],
         }
     }
 });
