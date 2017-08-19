@@ -132,8 +132,8 @@ MathJax.Hub.Config({
             Im:             ['{\\operatorname{Im} \\left[ #1 \\right]}', 1],
 
             /* quick quad text */
-            qqtext:     ['{\\quad\\text{ #1        }\\quad}', 1],
-            qq:         ['{\\quad\\text{ #1        }\\quad}', 1],
+            qqtext:     ['{\\quad\\text{ #1        }\\quad}', 1, ""],
+            qq:         ['{\\quad\\text{ #1        }\\quad}', 1, ""],
             qcomma:     ['{      \\text{ ,         }\\quad}'],
             qc:         ['{      \\text{ ,         }\\quad}'],
             qcc:        ['{\\quad\\text{ c.c.      }\\quad}'],
@@ -158,8 +158,8 @@ MathJax.Hub.Config({
             qin:        ['{\\quad\\text{ in        }\\quad}'],
 
             /* derivatives */
-            diferential:['{\\mathrm{d}^{ #1 }}', 1, ""],
-            dd:         ['{\\mathrm{d}^{ #1 }}', 1, ""],
+            diferential:['{\\ \\mathrm{d}^{ #1 } #2 \\,}', 2, ""],
+            dd:         ['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
         }
     }
 });
