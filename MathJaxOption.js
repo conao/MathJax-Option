@@ -160,7 +160,7 @@ MathJax.Hub.Config({
             /* derivatives */
             diferential:['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
             dd:         ['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
-            dv:         ['{\\frac{\\mathrm{d}{ #1 }}{\\mathrm{d}{ #1 }}}'],
+            dv:         ['{\\frac{\\mathrm{d}^{ #1 }{ #2 }}{\\mathrm{d}^{ #1 }{ #3 }}}', 3, ""],
         }
     }
 });
