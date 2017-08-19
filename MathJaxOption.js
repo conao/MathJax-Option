@@ -67,7 +67,7 @@ MathJax.Hub.Config({
 
             /* operators */
             // trigometric
-            sin:    ['{\\operatorname{sin}^{#1}     \\! \\left( #2 \\right)}', 2, ""],
+            sin:    ['{\\operatorname{sin}^{#1}      \\left( #2 \\right)}', 2, ""],
             cos:    ['{\\operatorname{cos}^{#1}     \\! \\left( #2 \\right)}', 2, ""],
             tan:    ['{\\operatorname{tan}^{#1}     \\! \\left( #2 \\right)}', 2, ""],
             csc:    ['{\\operatorname{csc}^{#1}     \\! \\left( #2 \\right)}', 2, ""],
