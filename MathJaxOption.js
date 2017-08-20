@@ -58,8 +58,8 @@ MathJax.Hub.Config({
             
             gradient:   ['{\\nabla\\,}'],
 	        grad:       ['{\\nabla\\,}'],
-            divergence: ['{\\nabla\\vdot\\,}'],
-	        div:        ['{\\nabla\\vdot\\,}'],
+            divergence: ['{\\nabla\\vdot}'],
+	        div:        ['{\\nabla\\vdot}'],
             curl:       ['{\\nabla\\cross\\,}'],
             rotation:   ['{\\nabla\\cross\\,}'],
 	        rot:        ['{\\nabla\\cross\\,}'],
