@@ -172,7 +172,16 @@ MathJax.Hub.Config({
             /* dirac bra-ket notation */
             bra:  ['{\\left\\langle{ #1 } \\right\\vert}', 1],
             ket:  ['{\\left\\vert  { #1 } \\right\\rangle}', 1],
-            innerproduct: ['{\\left\\langle{ #1 }'],
+            innerproduct: ['{\\left\\langle{ #1 } \\mid { #2 } \\right\\rangle}', 2],
+            ip:           ['{\\left\\langle{ #1 } \\mid { #2 } \\right\\rangle}', 2],
+            braket:       ['{\\left\\langle{ #1 } \\mid { #2 } \\right\\rangle}', 2],
+            outerproduct: ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
+            op:           ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
+            dyad:         ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
+            ketbra:       ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
+            expectationvalue: ['{\\left\\langle { #1 } \\right\\rangle}', 1],
+            ev:               ['{\\left\\langle { #1 } \\right\\rangle}', 1],
+            matrixelement:    ['{\\left\\langle { #1 } \\right\\vert{ #2 }\\left\\vert{ #3 }\\right\\rangle}', 3],
         }
     }
 });
