@@ -158,9 +158,21 @@ MathJax.Hub.Config({
             qin:        ['{\\quad\\text{ in        }\\quad}'],
 
             /* derivatives */
-            diferential:['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
-            dd:         ['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
-            dv:         ['{\\frac{\\mathrm{d}^{ #1 }{ #2 }}{\\mathrm{d}^{ #1 }{ #3 }}}', 3, ""],
+            diferential:       ['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
+            dd:                ['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
+            derivative:        ['{\\frac{\\mathrm{d}^{ #1 }{ #2 }}{\\mathrm{d}{ #3 }^{ #1 }}}', 3, ""],
+            dv:                ['{\\frac{\\mathrm{d}^{ #1 }{ #2 }}{\\mathrm{d}{ #3 }^{ #1 }}}', 3, ""],
+            partialderivative: ['{\\frac{\\partial^{ #1 }{ #2 }}{\\partial{ #3 }^{ #1 }}}', 3, ""],
+            pdv:               ['{\\frac{\\partial^{ #1 }{ #2 }}{\\partial{ #3 }^{ #1 }}}', 3, ""],
+            varidation:        ['{\\delta}'],
+            "var":             ['{\\delta}'],
+            functionalderivative: ['{\\frac{\\delta{ #1 }}{\\delta{ #2 }}}', 2],
+            fdv:                  ['{\\frac{\\delta{ #1 }}{\\delta{ #2 }}}', 2],
+
+            /* dirac bra-ket notation */
+            bra:  ['{\\left\\langle{ #1 } \\right\\vert}', 1],
+            ket:  ['{\\left\\vert  { #1 } \\right\\rangle}', 1],
+            innerproduct: ['{\\left\\langle{ #1 }'],
         }
     }
 });
