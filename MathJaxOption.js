@@ -181,7 +181,7 @@ MathJax.Hub.Config({
             ketbra:       ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
             expectationvalue: ['{\\left\\langle { #1 } \\right\\rangle}', 1],
             ev:               ['{\\left\\langle { #1 } \\right\\rangle}', 1],
-            matrixelement:    ['{\\left\\langle { #1 } \\right\\vert{ #2 }\\left\\vert{ #3 }\\right\\rangle}', 3],
+            matrixelement:    ['{\\left\\langle { #1 } \\middle| { #2 } \\middle| { #3 }\\right\\rangle}', 3],
         }
     }
 });
