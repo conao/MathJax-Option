@@ -10,7 +10,6 @@ MathJax.Hub.Config({
 	    processEscapes: true
     },
     TeX:{
-	    /*extensions: ["[Extra]/physics/unpacked/physics.js"],*/
 	    Macros: {
             /* classies */
             N: ['{\\mathbb N}'],
@@ -158,30 +157,32 @@ MathJax.Hub.Config({
             qin:        ['{\\quad\\text{ in        }\\quad}'],
 
             /* derivatives */
-            diferential:       ['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
-            dd:                ['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
-            derivative:        ['{\\frac{\\mathrm{d}^{ #1 }{ #2 }}{\\mathrm{d}{ #3 }^{ #1 }}}', 3, ""],
-            dv:                ['{\\frac{\\mathrm{d}^{ #1 }{ #2 }}{\\mathrm{d}{ #3 }^{ #1 }}}', 3, ""],
-            partialderivative: ['{\\frac{\\partial^{ #1 }{ #2 }}{\\partial{ #3 }^{ #1 }}}', 3, ""],
-            pdv:               ['{\\frac{\\partial^{ #1 }{ #2 }}{\\partial{ #3 }^{ #1 }}}', 3, ""],
-            varidation:        ['{\\delta}'],
-            "var":             ['{\\delta}'],
+            diferential:          ['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
+            dd:                   ['{\\ \\mathrm{d}^{ #1 } #2 \\ }', 2, ""],
+            derivative:           ['{\\frac{\\mathrm{d}^{ #1 }{ #2 }}{\\mathrm{d}{ #3 }^{ #1 }}}', 3, ""],
+            dv:                   ['{\\frac{\\mathrm{d}^{ #1 }{ #2 }}{\\mathrm{d}{ #3 }^{ #1 }}}', 3, ""],
+            partialderivative:    ['{\\frac{\\partial^{ #1 }{ #2 }}{\\partial{ #3 }^{ #1 }}}', 3, ""],
+            pdv:                  ['{\\frac{\\partial^{ #1 }{ #2 }}{\\partial{ #3 }^{ #1 }}}', 3, ""],
+            varidation:           ['{\\delta}'],
+            "var":                ['{\\delta}'],
             functionalderivative: ['{\\frac{\\delta{ #1 }}{\\delta{ #2 }}}', 2],
             fdv:                  ['{\\frac{\\delta{ #1 }}{\\delta{ #2 }}}', 2],
 
             /* dirac bra-ket notation */
-            bra:  ['{\\left\\langle{ #1 } \\right\\vert}', 1],
-            ket:  ['{\\left\\vert  { #1 } \\right\\rangle}', 1],
-            innerproduct: ['{\\left\\langle{ #1 } \\mid { #2 } \\right\\rangle}', 2],
-            ip:           ['{\\left\\langle{ #1 } \\mid { #2 } \\right\\rangle}', 2],
-            braket:       ['{\\left\\langle{ #1 } \\mid { #2 } \\right\\rangle}', 2],
-            outerproduct: ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
-            op:           ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
-            dyad:         ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
-            ketbra:       ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
+            bra:              ['{\\left\\langle{ #1 } \\right\\vert}', 1],
+            ket:              ['{\\left\\vert  { #1 } \\right\\rangle}', 1],
+            innerproduct:     ['{\\left\\langle{ #1 } \\mid { #2 } \\right\\rangle}', 2],
+            ip:               ['{\\left\\langle{ #1 } \\mid { #2 } \\right\\rangle}', 2],
+            braket:           ['{\\left\\langle{ #1 } \\mid { #2 } \\right\\rangle}', 2],
+            outerproduct:     ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
+            op:               ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
+            dyad:             ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
+            ketbra:           ['{\\left\\vert { #1 } \\right\\rangle\\left\\langle { #2 } \\right\\vert}', 2],
             expectationvalue: ['{\\left\\langle { #1 } \\right\\rangle}', 1],
             ev:               ['{\\left\\langle { #1 } \\right\\rangle}', 1],
             matrixelement:    ['{\\left\\langle { #1 } \\middle| { #2 } \\middle| { #3 }\\right\\rangle}', 3],
+            matrixel:         ['{\\left\\langle { #1 } \\middle| { #2 } \\middle| { #3 }\\right\\rangle}', 3],
+            mel:              ['{\\left\\langle { #1 } \\middle| { #2 } \\middle| { #3 }\\right\\rangle}', 3],
         }
     }
 });
