@@ -56,13 +56,13 @@ MathJax.Hub.Config({
             cross:        ['{\\boldsymbol{\\times}}'],
             cp:           ['{\\boldsymbol{\\times}}'],
             
-            gradient:   ['{\\nabla\\,}'],
-	        grad:       ['{\\nabla\\,}'],
+            gradient:   ['{\\nabla}'],
+	        grad:       ['{\\nabla}'],
             divergence: ['{\\nabla\\vdot}'],
 	        div:        ['{\\nabla\\vdot}'],
-            curl:       ['{\\nabla\\cross\\,}'],
-            rotation:   ['{\\nabla\\cross\\,}'],
-	        rot:        ['{\\nabla\\cross\\,}'],
+            curl:       ['{\\nabla\\cross}'],
+            rotation:   ['{\\nabla\\cross}'],
+	        rot:        ['{\\nabla\\cross}'],
             laplacian:  ['{\\nabla^2}'],
 
             /* operators */
