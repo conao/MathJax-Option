@@ -10,6 +10,7 @@ MathJax.Hub.Config({
 	    processEscapes: true
     },
     TeX:{
+        extensions: ["enclose.js"],
 	    Macros: {
             /* classies */
             N:                    ['{\\mathbb N}'],
