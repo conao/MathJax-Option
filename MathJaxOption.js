@@ -10,7 +10,7 @@ MathJax.Hub.Config({
 	    processEscapes: true
     },
     TeX:{
-        extensions: {["color.js"], ["enclose.js"]},
+        extensions: ["color.js", "AMScd.js", "enclose.js"],
 	    Macros: {
             /* classies */
             N:                    ['{\\mathbb N}'],
