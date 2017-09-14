@@ -11,6 +11,7 @@ MathJax.Hub.Config({
     },
     TeX:{
         extensions: ["color.js", "AMSmath.js", "AMScd.js", "enclose.js"],
+        equationNumbers: {autoNumber: "AMS"},
 	    Macros: {
             /* classies */
             N:                    ['{\\mathbb N}'],
