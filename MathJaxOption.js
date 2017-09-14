@@ -187,8 +187,8 @@ MathJax.Hub.Config({
             mel:                  ['{\\left\\langle{ #1 }\\middle|{ #2 }\\middle|{ #3 }\\right\\rangle}', 3],
 
             /* matrix macros */
-            matrixquantiry:       ['{\\begin{pmatrix}{ #1 }\\end{pmatrix}}', 1],
-            mqty:                 ['{\\begin{pmatrix}{ #1 }\\end{pmatrix}}', 1],
+            matrixquantiry:       ['{\\begin{pmatrix} #1 \\end{pmatrix}}', 1],
+            mqty:                 ['{\\begin{pmatrix} #1 \\end{pmatrix}}', 1],
         }
     }
 });
