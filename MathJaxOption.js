@@ -5,8 +5,8 @@ MathJax.Hub.Config({
 	    scale:120
     },
     tex2jax:{
-	    inlineMath:               [['$latex' , '$'], ['\\(' , '\\)']],
-	    displayMath:              [['$$' , '$$'], ['\[' , '\]']],
+	    inlineMath:     [['$latex' , '$'], ['\\(' , '\\)']],
+	    displayMath:    [['$$' , '$$'], ['\[' , '\]']],
 	    processEscapes: true
     },
     TeX:{
